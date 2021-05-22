@@ -1,0 +1,5 @@
+-Agregue un meta description
+
+-le cambie el titulo 
+
+-modifique el h1 "titulo" agregando el nombre de la empresa mas la palabra implantes que es a lo que se se dedica la empresa

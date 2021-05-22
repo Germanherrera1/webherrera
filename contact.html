@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" type="text/css"  href="estilos.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <body>
+    <header>
+      <div id="header">
+        <nav> 
+          <ul class="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="otro.html">Otro</a></li>
+            <li><a href="servicios.html">Servicios</a>
+              <ul>
+                <li><a href="img/subimg/1.jpeg">Submenu1</a></li>
+                <li><a href="img/subimg/2.jpg">Submenu2</a></li>
+                <li><a href="img/subimg/3.jpg">Submenu3</a></li>
+                <li><a href="img/subimg/4.jpg">Submenu4</a></li>
+                <li><a href="img/subimg/5.jpg">Submenu5</a></li>
+              </ul>
+            <li><a href="acercade.html">Acerca de</a>
+            </li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <form>
+      <select name="pais" size=" 5">
+        <option value="xx" > Elija un pais ...</option>
+        <optgroup label="América">
+          <option value="ar"> Argentina</option>
+          <option value="mx"> Brasil</option>
+          <option value ="ur"> Uruguay</option>
+          <option value ="pa"> Paraguay</option>
+          <option value ="cl"> Chile</option>
+        </optgroup>
+        <optgroup label="Europa" disabled>
+          <option value="es"> España</option>
+          <option value="fr"> Francia</option>
+          <option value="it"> Italia</option>
+        </optgroup>
+      </select>
+  </form>
+  <form action="">
+    <fieldset>
+    <legend>Datos contacto</legend>
+    <label>Nombre:       <input type="text" name="Nick"  /><label><br>
+    <label>Razon social: <input type="text" name="Rsocial" /><label><br>
+    <label>Mail:         <input type="text" name="eMail"  /><label><br>
+    </fieldset>
+    <label for="aceptar">Desea recibir el Newsletter?</label>
+    <input type="checkbox" name="acepar" value="1">
+    <br>   
+    <br>
+    <textarea placeholder="Comentarios"></textarea>
+    <br>
+    <input type="submit" value="Enviar Formulario">
+    <input type="reset" value="LimpiarFormulario">
+    <div>
+      <a href="index.html"><img src="img/gruporot.png" alt="logo"></a>
+    </div>     
+    <footer>
+      <div class="footer">
+        <p>GrupoROT.com.ar</p>
+      </div>
+    </footer>
+</body>
+</html>
